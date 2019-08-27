@@ -1,0 +1,7 @@
+
+
+exclude:
+  - aaa
+
+timezone: Asia/Tokyo
+encording: utf-8
