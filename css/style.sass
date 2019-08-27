@@ -1,7 +1,15 @@
 ---
 ---
-h1
-  color: red
 
+$blue: #3147EB
+
+$spacer: 1rem
+$spacers: ( 6: $spacer * 10 )
+
+@import bootstrap/bootstrap
+
+h1
+  color: $blue
+  margin-top: map-get($spacers, 6)
 p
   color: green

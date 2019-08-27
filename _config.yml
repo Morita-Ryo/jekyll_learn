@@ -1,4 +1,15 @@
 
+exclude:
+  - vendor
+  - Submodule
+  - Gemfile
+  - Gemfile.lock
 
 timezone: Asia/Tokyo
 encording: utf-8
+
+sass:
+    sass_dir: _sass
+
+collections:
+  - team_members
